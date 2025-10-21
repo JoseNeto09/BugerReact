@@ -1,13 +1,13 @@
-import React, { Children } from "react";
+
 import Header from "./Header";
 import Footer from "./Footer";
 
-function Layout({Children}){
+function Layout({children}){
     return(
         <>
-         <Header />
-         <div>{Children}</div>
-         <Footer />
+            <Header />
+              <div>{children}</div>
+            <Footer />
         </>
     )
 }
