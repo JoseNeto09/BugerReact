@@ -1,6 +1,8 @@
 import Layout from "../../components/Layouts/Layout";
 import "../../Styles/HomeStyles.css";
 import Section1 from "./Section1";
+import { Section2 } from "./Section2";
+import Section3 from "./Section3";
 
 
 function Home(){
@@ -9,6 +11,12 @@ function Home(){
             <Layout>
                 {/* Home Section Hero Banner */}
                 <Section1/>
+
+                {/* Home Section about*/}
+                <Section2/>
+
+                {/* Home Section Menu*/}
+                <Section3 />
             </Layout>
         </>
 
