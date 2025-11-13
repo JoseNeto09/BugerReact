@@ -10,7 +10,7 @@ import Image8 from "../../Assets/assets/menu/burger-18.jpg";
 import Cards from "../../components/Layouts/Cards";
 import { Link } from "react-router-dom";
 
-// Dados mockados dos cards
+// Mock Data Cards
 const mockData = [
   {
     id: "0001",
@@ -64,7 +64,7 @@ const mockData = [
     id: "0007",
     image: Image7,
     title: "Smokey House",
-    paragraph: "Patty, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    paragraph: "patty, cheddar cheese, onion, lettuce, tomatoes, pickles",
     rating: 2.5,
     price: 99.19,
   },
@@ -72,37 +72,54 @@ const mockData = [
     id: "0008",
     image: Image8,
     title: "Classic Burger",
-    paragraph: "Cheddar cheese, ketchup, mustard, pickles, onion",
+    paragraph: "cheddar cheese, ketchup, mustard, pickles, onion",
     rating: 2.0,
     price: 89.12,
   },
+  // Add more mock data objects as needed
 ];
+
+// Rating Logical Data
+const renderRatingIcons = (rating) => {
+  const stars = [];
+
+  for (let i = 0; i < 5; i++) {
+    if (rating > 0.5) {
+      stars.push(<i key={i} className="bi bi-star-fill"></i>);
+      rating--;
+    } else if (rating > 0 && rating < 1) {
+      stars.push(<i key={"half"} className="bi bi-star-half"></i>);
+      rating--;
+    } else {
+      stars.push(<i key={`empty${i}`} className="bi bi-star"></i>);
+    }
+  }
+  return stars;
+};
 
 function Section3() {
   return (
-    <section className="menu_section py-5">
+    <section className="menu_section">
       <Container>
-        {/* Título e descrição */}
-        <Row className="text-center mb-4">
+        <Row>
           <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
-            <h2 className="fw-bold">OUR CRAZY BURGERS</h2>
+            <h2>OUR CRAZY BURGERS</h2>
             <p className="para">
               Aliquam a augue suscipit, luctus neque purus ipsum neque undo
-              dolor primis libero tempus, blandit a cursus varius magna.
+              dolor primis libero tempus, blandit a cursus varius magna
             </p>
           </Col>
         </Row>
-
-        {/* Cards de produtos */}
-        <Row className="g-4">
-          {mockData.map((cardData) => (
+        <Row>
+          {mockData.map((cardData, index) => (
             <Cards
-              key={cardData.id}
+              key={index}
               image={cardData.image}
               rating={cardData.rating}
               title={cardData.title}
               paragraph={cardData.paragraph}
               price={cardData.price}
+              renderRatingIcons={renderRatingIcons}
             />
           ))}
         </Row>
@@ -117,15 +134,15 @@ function Section3() {
               </Link>
             </div>
           </Col>
-                    <Col sm={6} lg={7}>
-            <div className="ads_box ads_img">
+          <Col sm={6} lg={7}>
+            <div className="ads_box ads_img2">
               <h4 className="mb-0">GET YOUR FREE</h4>
               <h5>CHEESE FRIES</h5>
               <Link to="/" className="btn btn_red px-4 rounded-0">
                 Learn More
               </Link>
             </div>
-          </Col>  
+          </Col>
         </Row>
       </Container>
     </section>
