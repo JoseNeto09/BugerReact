@@ -126,19 +126,19 @@ function Section3() {
         <Row className="pt-5">
           <Col sm={6} lg={5}>
             <div className="ads_box ads_img1 mb-5 mb-md-0">
-              <h4 className="mb-0">GET YOUR FREE</h4>
-              <h5>CHEESE FRIES</h5>
+              <h4 className="mb-0">Primeira Compra?</h4>
+              <h5>BATATAS FRITAS COM QUEIJO GRÁTIS</h5>
               <Link to="/" className="btn btn_red px-4 rounded-0">
-                Learn More
+                Saiba mais
               </Link>
             </div>
           </Col>
           <Col sm={6} lg={7}>
             <div className="ads_box ads_img2">
-              <h4 className="mb-0">GET YOUR FREE</h4>
-              <h5>CHEESE FRIES</h5>
+              <h4 className="mb-0">Burguer Duplo</h4>
+              <h5>Compre um combo familia Ganhe um burger a mais</h5>
               <Link to="/" className="btn btn_red px-4 rounded-0">
-                Learn More
+                Saiba mais
               </Link>
             </div>
           </Col>
