@@ -16,7 +16,7 @@ const mockData = [
     id: "0001",
     image: Image1,
     title: "Crispy Chicken",
-    paragraph: "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+    paragraph: "Peito de frango, molho de pimenta, tomates, picles, salada",
     rating: 5,
     price: 99.15,
   },
@@ -24,7 +24,7 @@ const mockData = [
     id: "0002",
     image: Image2,
     title: "Ultimate Bacon",
-    paragraph: "House patty, cheddar cheese, bacon, onion, mustard",
+    paragraph: "Hambúrguer da casa, queijo cheddar, bacon, cebola, mostarda.",
     rating: 4.5,
     price: 99.32,
   },
@@ -32,7 +32,7 @@ const mockData = [
     id: "0003",
     image: Image3,
     title: "Black Sheep",
-    paragraph: "American cheese, tomato relish, avocado, lettuce, red onion",
+    paragraph: "Queijo americano, molho de tomate, abacate, Salada",
     rating: 4,
     price: 69.15,
   },
@@ -40,7 +40,7 @@ const mockData = [
     id: "0004",
     image: Image4,
     title: "Vegan Burger",
-    paragraph: "House patty, cheddar cheese, bacon, onion, mustard",
+    paragraph: "Hambúrguer da casa, queijo cheddar, bacon, cebola, mostarda.",
     rating: 3.5,
     price: 99.25,
   },
@@ -48,7 +48,7 @@ const mockData = [
     id: "0005",
     image: Image5,
     title: "Double Burger",
-    paragraph: "2 patties, cheddar cheese, mustard, pickles, tomatoes",
+    paragraph: "2 hambúrgueres, queijo cheddar, mostarda, picles, tomates",
     rating: 3.0,
     price: 59.25,
   },
@@ -56,7 +56,7 @@ const mockData = [
     id: "0006",
     image: Image6,
     title: "Turkey Burger",
-    paragraph: "Turkey, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    paragraph: "Peru, queijo cheddar, cebola, alface, tomate, picles",
     rating: 3,
     price: 79.18,
   },
@@ -64,7 +64,7 @@ const mockData = [
     id: "0007",
     image: Image7,
     title: "Smokey House",
-    paragraph: "patty, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    paragraph: "hambúrguer, queijo cheddar, cebola, alface, tomate, picles",
     rating: 2.5,
     price: 99.19,
   },
@@ -72,7 +72,7 @@ const mockData = [
     id: "0008",
     image: Image8,
     title: "Classic Burger",
-    paragraph: "cheddar cheese, ketchup, mustard, pickles, onion",
+    paragraph: "Queijo cheddar, ketchup, mostarda, picles, cebola",
     rating: 2.0,
     price: 89.12,
   },
@@ -103,10 +103,9 @@ function Section3() {
       <Container>
         <Row>
           <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
-            <h2>OUR CRAZY BURGERS</h2>
+            <h2>Principais estrelas</h2>
             <p className="para">
-              Aliquam a augue suscipit, luctus neque purus ipsum neque undo
-              dolor primis libero tempus, blandit a cursus varius magna
+            Os hambúrgueres mais pedidos da nossa casa se destacam pelo sabor único e combinações artesanais irresistíveis. Entre clássicos e especiais, são os favoritos absolutos dos nossos clientes.
             </p>
           </Col>
         </Row>

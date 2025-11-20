@@ -21,14 +21,14 @@ function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
           <Card.Text>{paragraph}</Card.Text>
 
           <div className="d-flex align-items-center justify-content-between">
-            <div className="menu_price">
-              <h5 className="mb-0">${price}</h5>
-            </div>
             <div className="add_to_card">
               <Link to="/">
                 <i class="bi bi-bag me-2"></i>
-                Add To Cart
+                Adicionar
               </Link>
+            </div>
+            <div className="menu_price">
+              <h5 className="mb-0">R${price}</h5>
             </div>
           </div>
         </Card.Body>

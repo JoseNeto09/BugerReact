@@ -10,17 +10,17 @@ const mockData = [
   {
     image: Pizza,
     title: "Original",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    paragraph: `Produtos de alta excelência garantem confiança, trazendo autenticidade total e desempenho superior para todos os clientes.`,
   },
   {
     image: Salad,
-    title: "Qualty Foods",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    title: "comida de qualidade",
+    paragraph: `Cada produto é escolhido com atenção e controle rigoroso, oferecendo frescor, durabilidade e desempenho superior`,
   },
   {
     image: Delivery,
-    title: "Fastest Delivery",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    title: "Entrega Rapida",
+    paragraph: `Entrega ágil e totalmente protegida, garantindo que cada pedido chegue em perfeito estado, com máxima eficiência`,
   },
 ];
 
@@ -31,14 +31,14 @@ export const Section2 = () => {
         <Container>
             <Row>
                 <Col lg={{span:8, offset:2}} className="text-center">
-                  <h2>The burger tastes better when you eat it with your family</h2>
+                  <h2>O hambúrguer fica mais gostoso quando você come com a sua família.</h2>
                   <p>
-                    Porta semper lacus cursus, feugiat primis ultrice a ligula risus
-                    auctor an tempus feugiat dolor lacinia cubilia curae integer
-                    orci congue and metus integer primis in integer metus
+                  Aproveite o nosso Combo Família, criado para deixar seus momentos ainda mais especiais.
+                   Tire uma foto curtindo o combo, poste no Instagram marcando nossa página e ganhe 20% de
+                    desconto na próxima compra. Simples, divertido e perfeito para compartilhar bons momentos!
                   </p>
                   <Link to="/" className="btn order_now btn_red">
-                     Explore full Menu
+                     Menu Família
                   </Link>
                 </Col>
             </Row>
