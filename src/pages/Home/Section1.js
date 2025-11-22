@@ -24,7 +24,7 @@ function Section1(){
                         <h1 className="text-white">Novo Burguer</h1>
                         <h2 className="text-white">Aneis acebolados</h2>
                         <p className="text-white pt-2">Hambúrguer Artesanal de Cebola, preparado com carne selecionada, pão brioche macio e cebolas caramelizadas no ponto perfeito.
-Uma combinação suculenta, saborosa e irresistível para quem busca um verdadeiro gourmet. </p>
+                         Uma combinação suculenta, saborosa e irresistível para quem busca um verdadeiro gourmet. </p>
                          <Link to="/" className="btn order_now">
                             Pedir agora
                          </Link>

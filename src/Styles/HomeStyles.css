@@ -205,11 +205,11 @@
 .menu_section .ads_box h4 {
   font-size: 2.25rem;
   font-weight: 300;
-  color: var(--brown);
+  color: #8B5A2B;
 }
 .menu_section .ads_box h5 {
   font-size: 2.375rem;
-  color: var(--brown);
+  color: #B80F0A;
 }
 .menu_section .ads_box a {
   margin-top: 15px;
@@ -286,7 +286,7 @@
 }
 
 .promotion_section h2{
-  font-size: 3.25rem;
+  font-size: 2.25rem;
   margin-bottom: 25px;
 }
 
@@ -343,10 +343,12 @@
   background: var(--light-grey);
   overflow: hidden;
 }
+
 .brand_section .brand_img{
   width: 180px;
   height: auto;
 }
+
 .carousel.slide .carousel-inner {
   overflow: unset;
 }
