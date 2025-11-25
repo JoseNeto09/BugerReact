@@ -105,7 +105,7 @@ function Section3() {
           <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
             <h2>Principais estrelas</h2>
             <p className="para">
-            Os hambúrgueres mais pedidos se destacam pelo sabor único e combinações artesanais que conquistam nossos clientes.
+            Os hambúrgueres mais pedidos da nossa casa se destacam pelo sabor único e combinações artesanais irresistíveis. Entre clássicos e especiais, são os favoritos absolutos dos nossos clientes.
             </p>
           </Col>
         </Row>

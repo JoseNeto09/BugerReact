@@ -9,6 +9,11 @@ import Logo from "../../Assets/assets/logo/logo.png";
 function Header() {
   const [nav, setNav] = useState(false);
 
+  // Função para ir ao topo
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   // Scroll Navbar
   const changeValueOnScroll = () => {
     const scrollValue = document?.documentElement?.scrollTop;
@@ -28,7 +33,8 @@ function Header() {
         className={`navbar ${nav ? "sticky" : ""}`}
       >
         <Container>
-          <Navbar.Brand as={Link} to="/" className="logo">
+          {/* Clicar na logo também volta para o topo */}
+          <Navbar.Brand as={Link} to="/" onClick={scrollToTop} className="logo">
             <img src={Logo} alt="Logo" className="img-fluid" />
           </Navbar.Brand>
 
@@ -36,13 +42,13 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
 
-              <Nav.Link as={Link} to="/" className="nav-link">Inicio</Nav.Link>
-              <Nav.Link as={Link} to="/Burgers" className="nav-link">Burgers</Nav.Link>
-              <Nav.Link as={Link} to="/menu" className="nav-link">Combos</Nav.Link>
-              <Nav.Link as={Link} to="/shop" className="nav-link">Família</Nav.Link>
-              <Nav.Link as={Link} to="/contact" className="nav-link">Contato</Nav.Link>
+              <Nav.Link as={Link} to="/" onClick={scrollToTop} className="nav-link">Inicio</Nav.Link>
+              <Nav.Link as={Link} to="/Burgers" onClick={scrollToTop} className="nav-link">Burgers</Nav.Link>
+              <Nav.Link as={Link} to="/combos" onClick={scrollToTop} className="nav-link">Combos</Nav.Link>
+              <Nav.Link as={Link} to="/shop" onClick={scrollToTop} className="nav-link">Família</Nav.Link>
+              <Nav.Link as={Link} to="/contact" onClick={scrollToTop} className="nav-link">Contato</Nav.Link>
 
-              <Nav.Link as={Link} to="/" className="nav-link">
+              <Nav.Link as={Link} to="/" onClick={scrollToTop} className="nav-link">
                 <div className="cart">
                   <i className="bi bi-bag fs-5"></i>
                   <em className="roundpoint">2</em>
