@@ -22,11 +22,10 @@ function Section5() {
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
-              <h4>Dowload mobile App and</h4>
-              <h2>save up to 20%</h2>
+              <h4>Faça o Dowload do nosso app</h4>
+              <h2>E Ganhe 20% desconto</h2>
               <p>
-                aliquam a augue suscipit, luctus neque purus ipsam and neque
-                dolor primis libero tempus, bandit varius
+                Promoção valida apenas para clientes novos e até na data 26/12
               </p>
 
               <Link to={"/"}>

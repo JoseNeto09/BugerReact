@@ -5,7 +5,7 @@
   background: url("../Assets/assets/hero/hero-3.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 170px;
+  padding-top: 190px;
   padding-bottom: 90px;
   color: #fff;
   text-align: center;
@@ -247,10 +247,10 @@
   }
 }
 
-/* ====== VERY SMALL SCREENS ====== */
+/* ====== mobile small ====== */
 @media (max-width: 480px) {
   .hero_section {
-    padding-top: 100px;
+    padding-top: 180px;
     padding-bottom: 60px;
   }
 
@@ -298,7 +298,7 @@
   padding-left: 15px;
 }
 
-/* Home Parallax 5.0*/
+/* Parallax 5.0*/
 .bg_parallax_scroll{
   background: url(../Assets/assets/parallax/bg.jpg) no-repeat center center;
   background-size: cover;

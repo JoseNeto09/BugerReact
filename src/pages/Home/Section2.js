@@ -37,7 +37,7 @@ export const Section2 = () => {
                    Tire uma foto curtindo o combo, poste no Instagram marcando nossa página e ganhe 20% de
                     desconto na próxima compra. Simples, divertido e perfeito para compartilhar bons momentos!
                   </p>
-                  <Link to="/" className="btn order_now btn_red">
+                  <Link to="/Familia" className="btn order_now btn_red">
                      Menu Família
                   </Link>
                 </Col>
