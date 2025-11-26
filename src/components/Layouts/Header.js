@@ -46,7 +46,7 @@ function Header() {
               <Nav.Link as={Link} to="/Burgers" onClick={scrollToTop} className="nav-link">Burgers</Nav.Link>
               <Nav.Link as={Link} to="/combos" onClick={scrollToTop} className="nav-link">Combos</Nav.Link>
               <Nav.Link as={Link} to="/Familia" onClick={scrollToTop} className="nav-link">Família</Nav.Link>
-              <Nav.Link as={Link} to="/contact" onClick={scrollToTop} className="nav-link">Contato</Nav.Link>
+              <Nav.Link as={Link} to="/Contato" onClick={scrollToTop} className="nav-link">Contato</Nav.Link>
 
               <Nav.Link as={Link} to="/" onClick={scrollToTop} className="nav-link">
                 <div className="cart">

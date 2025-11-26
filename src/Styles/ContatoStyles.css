@@ -1,0 +1,133 @@
+/* ==Home Menu3.0 == */
+.menu_section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../Assets/assets/hero/hero-3.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.menu_section .card-img-top{
+  transition:all 500ms ease-in-out;
+}
+
+.menu_section h2{
+  font-size: 3.5rem;
+  color: var(--yellow);
+}
+
+.menu_section .para {
+  color: #f1f1f1;
+  padding: 10px 100px;
+  font-size: 28px;
+  text-align:center;
+}
+
+.menu_section .item_rating i{
+  color: var(--yellow);
+  padding-right: 5px;
+}
+
+.menu_section .wishlist i{
+  color: var(--grey);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu_section .wishlist i:hover{
+  color: var(--yellow);
+}
+
+.menu_section .card-title {
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.menu_section .card-text {
+  color: var(--grey);
+  font-size: 15px;
+}
+
+.menu_section .menu_price {
+  background-color: var(--bg-coffee);
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 4px;
+}
+
+.menu_section .menu_price h5{
+  color: var(--yellow);
+  font-size: 1rem;
+}
+
+.menu_section .add_to_card a {
+  background: var(--yellow);
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 4px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 500ms ease-in-out;
+}
+
+.menu_section .card:hover .card-img-top {
+  transform: scale(1.1);
+}
+.menu_section .card:hover .add_to_card a {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.menu_section .ads_box {
+  text-align: right;
+  padding: 80px 35px 50px;
+  border-radius: 6px;
+}
+.menu_section .ads_img1 {
+  background: url("../Assets/assets/menu/ads-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+.menu_section .ads_img2 {
+  background: url("../Assets/assets/menu/ads-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+.menu_section .ads_box h4 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #8B5A2B;
+}
+.menu_section .ads_box h5 {
+  font-size: 2.375rem;
+  color: #B80F0A;
+}
+.menu_section .ads_box a {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .menu_section {
+    background-attachment: scroll; 
+  }
+
+  .menu_section .para {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu_section .para {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}

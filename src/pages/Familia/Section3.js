@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Image1 from "../../Assets/assets/menu/combohero11.png";
+import Image1 from "../../Assets/assets/familia/ComboFamilia11.png"
 import Image2 from "../../Assets/assets/menu/combohero12.png";
 import Image3 from "../../Assets/assets/menu/combohero13.png";
 
@@ -57,10 +57,9 @@ function Section3() {
       <Container>
         <Row>
           <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
-            <h2>Bateu aquela fome monstra?</h2>
+            <h2>Combo Famíla</h2>
             <p className="para">
-             Escolha o combo e transforme sua fome em satisfação completa — mais sabor, mais economia, mais felicidade!
-            </p>
+             Escolha o combo perfeito para a família e transforme a fome em momentos completos — mais sabor, mais economia e muita felicidade juntos!</p> 
           </Col>
         </Row>
         <Row>
