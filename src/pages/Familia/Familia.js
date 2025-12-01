@@ -7,14 +7,10 @@ function Familia(){
     return(
         <>
             <Layout>
-                {/* Home Section Menu*/}
                 <Section3 />
-
-                {/* Home Section App Dowload*/}
                 <Section5 />
             </Layout>
         </>
-
     )
 }
 export default Familia;

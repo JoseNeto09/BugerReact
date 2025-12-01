@@ -6,11 +6,9 @@ function Contato(){
     return(
         <>
             <Layout>
-                {/* Home Section Hero Banner */}
                 <Section1/>
             </Layout>
         </>
-
     )
 }
 export default Contato;

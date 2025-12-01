@@ -9,7 +9,6 @@
   color: #fff;
 }
 
-
 .position-relative img{
   border-radius: 100px;
   height: 350px;
@@ -92,6 +91,23 @@
   padding: 80px 35px 50px;
   border-radius: 6px;
 }
+.btn_group {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: center;
+  gap: 15px;             
+  margin-top: 20px;      
+}
+
+.btn_group .btn {
+  display: flex;
+  align-items: center;
+  gap: 200px;              
+}
+
+.hero_text i {
+  font-size: 20px;      
+}
 
 .menu_section .ads_box h4 {
   font-size: 2.25rem;
@@ -142,6 +158,13 @@
   margin-bottom:20px;
 }
 
+.hero_section .hero_text {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 991px) {
   .menu_section {
     background-attachment: scroll; 
@@ -160,7 +183,13 @@
     font-size: 15px;
   }
   .position-relative img{
-  border-radius: 200px;
-  height: 250px;
+   border-radius: 200px;
+   height: 250px;
+}
+
+@media (max-width:767px){
+  .hero_section .hero_text h1{
+    font-size: 2.5rem;
+  }
 }
 }
