@@ -1,5 +1,5 @@
 import { Col, Card } from "react-bootstrap";
-import { useCart } from "../../context/CartContext"; // IMPORTANTE
+import { useCart } from "../../context/CartContext"; 
 
 function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
   const { addToCart } = useCart(); // função que soma +1

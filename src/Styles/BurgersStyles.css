@@ -65,6 +65,10 @@
   font-size: 1rem;
 }
 
+.menu_section .add_to_card button{
+  color: var(--yellow)
+}
+
 .menu_section .add_to_card a {
   background: var(--yellow);
   display: inline-block;
