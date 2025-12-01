@@ -45,6 +45,7 @@
 
 .hero_section .hero_text h1 {
   font-family: var(--lilita-font);
+  align-items: justify;
   font-size: 5.5rem;
   line-height: 1;
   margin-bottom: 15px;
@@ -54,6 +55,7 @@
 
 .hero_section .hero_text h2 {
   font-family: var(--lilita-font);
+  align-items: justify;
   font-size: 2.5rem;
   line-height: 1;
   margin-bottom: 20px;
@@ -61,13 +63,15 @@
 }
 
 .hero_section .hero_text p {
-  padding: 0 5%;
   max-width: 600px;
   margin-bottom: 20px;
+  align-items: justify;
+  font-size: 1.5rem;
 }
 
 /* Home About 2.0 */
 .about_section {
+  align-items: justify;
   padding-top: 80px;
   padding-bottom: 300px;
   background: url("../Assets/assets/about/about-1.jpg") no-repeat center center;
@@ -76,11 +80,13 @@
 }
 .about_section h2 {
   font-size: 2.8rem;
+  align-items: justify;
 }
 .about_section p {
   color: var(--grey);
   padding: 20px 30px;
   font-size: 19px;
+  align-items: justify;
 }
 
 .about_wrapper {
@@ -99,6 +105,7 @@
   letter-spacing: 0.50008px;
   margin-top: 30px;
   margin-bottom: 20px;
+  align-items: justify;
 }
 
 .about_box p {
@@ -117,6 +124,7 @@
 .menu_section h2 {
   font-size: 3.5rem;
   color: var(--light-red);
+  align-items: justify;
 }
 
 .menu_section .para {
@@ -388,6 +396,104 @@
 .blog_section .carousel.slide .carousel-inner .carousel-caption h5 {
   font-size: 1rem;
   margin-bottom: 2rem;
+}
+/* Home Contact 8.0 */
+.contact_section {
+  background: url("../Assets/assets/footer/banner-1.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact_section h4 {
+  font-size: 2.375rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.contact_section h2 {
+  font-size: 4.5rem;
+  margin-bottom: 25px;
+}
+.contact_section p {
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.contact_section a {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Home Footer 9.0 */
+footer {
+  padding-top: 80px;
+}
+footer h5 {
+  color: var(--light-black);
+  line-height: 1;
+  margin-bottom: 25px;
+}
+footer p {
+  margin-bottom: 3px;
+  font-size: 1rem;
+}
+footer .calling {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--yellow);
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+footer .copy_right {
+  border-top: 1px solid var(--light-grey-2);
+  margin-top: 60px;
+  padding: 20px 0;
+}
+footer .copy_right ul li span {
+  color: var(--light-red);
+  font-weight: 600;
+}
+footer .copy_right ul li {
+  font-size: 1rem;
+  padding: 0 10px;
+  position: relative;
+}
+footer .copy_right ul li:after {
+  content: "|";
+  padding-left: 11px;
+  position: absolute;
+  top: -1px;
+  right: -10px;
+}
+footer .copy_right ul li:last-child:after {
+  display: none;
+}
+
+/* Scroll Top */
+.scroll_top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+  cursor: pointer;
+  width: 2.7rem;
+  height: 2.7rem;
+  line-height: 3rem;
+  text-align: center;
+  background: var(--light-red);
+  border-radius: 10%;
+}
+.scroll_top i {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.contact_section p{
+  text-align: justify;
+  font-size: 25px;
 }
 
 @media (max-width: 1200px) {
