@@ -7,7 +7,7 @@ function Section7() {
       <Container>
         <Row className="justify-content-center">
           <Col sm={8} className="text-center">
-            <h4>Com duvida?</h4>
+            <h4>Com dúvida?</h4>
             <h2>15 Minutos o Artesanal Chega!</h2>
             <p>
               Entrega ágil e totalmente protegida, garantindo que cada pedido

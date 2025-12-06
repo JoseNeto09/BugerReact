@@ -58,6 +58,67 @@ header .nav-link {
   -moz-transition: all 15ms ease-in-out;
   transition: all 15ms ease-in-out;
 }
+/* Wrapper para controlar o hover */
+.login-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* Estilo do botão Login */
+.btn-login-header {
+  padding: 6px 18px;
+  background-color: #ffcf2d;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login-header:hover {
+  background-color: #e5b821;
+  transform: scale(1.05);
+}
+
+/* Submenu */
+.login-submenu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #fff;
+  width: 140px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px rgba(0,0,0,0.1);
+  padding: 10px 0;
+  z-index: 999;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Itens do submenu */
+.submenu-item {
+  display: block;
+  padding: 8px 15px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.submenu-item:hover {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 header .sticky .nav-link {
   color: var(--light-black);
