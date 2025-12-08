@@ -49,7 +49,7 @@ function Footer() {
                 <p>Nosso Contato</p>
                 <p>
                   <Link to="tel:981098868" className="calling">
-                     +55 (83) 98109-8868
+                     98109-8868
                   </Link>
                 </p>
               </div>

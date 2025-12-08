@@ -19,19 +19,19 @@ function Section1() {
                             <h2 className="text-white">José Neto</h2>
 
                             <div className="btn_group">
-                                <Link to="/" className="btn order_now">
+                                <Link to="https://x.com/JoseNt80668" className="btn order_now">
                                     <i class="bi bi-twitter-x"></i> 
                                 </Link>
 
-                                <Link to="/" className="btn order_now">
+                                <Link to="https://www.instagram.com/joselopes.sn/#" className="btn order_now">
                                     <i className="bi bi-instagram"></i> 
                                 </Link>
 
-                                <Link to="/" className="btn order_now">
+                                <Link to="https://www.linkedin.com/in/jos%C3%A9-lopes-sobrinho-neto-280648290/" className="btn order_now">
                                     <i className="bi bi-linkedin"></i> 
                                 </Link>
 
-                                <Link to="/" className="btn order_now">
+                                <Link to="https://github.com/JoseNeto09" className="btn order_now">
                                     <i className="bi bi-github"></i> 
                                 </Link>
                             </div>

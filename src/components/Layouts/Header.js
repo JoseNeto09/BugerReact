@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, NavDropdown } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
@@ -50,16 +50,7 @@ function Header() {
               <Nav.Link as={Link} to="/Burgers" onClick={scrollToTop} className="nav-link">Burgers</Nav.Link>
               <Nav.Link as={Link} to="/combos" onClick={scrollToTop} className="nav-link">Combos</Nav.Link>
               <Nav.Link as={Link} to="/Familia" onClick={scrollToTop} className="nav-link">Família</Nav.Link>
-              <Nav.Link as={Link} to="/Contato" onClick={scrollToTop} className="nav-link">Contato</Nav.Link>
-
-              <NavDropdown title="Login" id="login-dropdown" className="nav-link">
-                <NavDropdown.Item as={Link} to="/Login" onClick={scrollToTop}>
-                  Entrar
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Registrar" onClick={scrollToTop}>
-                  Registrar
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link as={Link} to="/Contato" onClick={scrollToTop} className="nav-link">Dev</Nav.Link>
 
               <Nav.Link as={Link} to="/" onClick={scrollToTop} className="nav-link">
                 <div className="cart">

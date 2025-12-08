@@ -37,7 +37,7 @@ function Section6() {
                 <p>
                   " A Tasty Burger se tornou minha escolha número um porque aqui
                   cada detalhe importa: dos ingredientes sempre frescos ao aroma
-                  irresistível que já conquista antes da primeira mordida. "
+                  irresistível."
                 </p>
                 <div className="item_rating mb-2">
                   <i className="bi bi-star-fill"></i>
